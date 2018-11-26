@@ -1,0 +1,67 @@
+/* .navbar-expand-lg {
+    background: black;
+    top: 53px;
+    position: absolute;
+    margin: -49px 348px;
+    position: fixed */
+/* } */
+#home{
+    background: red;
+   
+
+}
+#destination{
+    background: gray;
+}
+#packages{
+    background:blue;
+
+}
+#offer{
+    background:green;
+}
+#blog{
+    background:black;
+}
+#subscription{
+    background:blue;
+}
+#home{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: url(banner.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 900px;
+    padding:100px;
+   
+}
+#navigation{
+    position: absolute;
+    z-index: 3;
+}
+
+.tour{
+    position: relative;
+    right: 69%
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: 200px;
+}
+.elvin{
+    color: white;
+    font-size: 84px;
+    text-transform: inherit;
+    max-width: 800px;
+    font-weight: 600;
+    line-height: 1.22;
+    margin-top: -158px;
+  
+}
